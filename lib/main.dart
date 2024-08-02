@@ -3,7 +3,7 @@ import 'home_page.dart';
 import 'resource_page.dart';
 import 'network_page.dart';
 import 'profile_page.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(MyApp());
 }
@@ -47,7 +47,7 @@ class _MainPageState extends State<MainPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Intellexa'),
+        title: Text('Lexa',style:GoogleFonts.audiowide(textStyle: TextStyle(fontFamily:'',fontWeight: FontWeight.w400, color: Colors.white,fontSize: 30))),
         backgroundColor: Colors.black,
         elevation: 0,
       ),
